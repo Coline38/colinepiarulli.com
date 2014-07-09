@@ -1,0 +1,2 @@
+<div class="date">Publié le <span>{{ post.date | date:'%b %d %Y' }}.</span> Catégories : 
+{% for tag in post.tags %}<span><a href="/tag/{{ tag | downcase }}">{{ tag }}</a>{% if forloop.index != forloop.length %}, {% endif %}</span>{% endfor %}</div>
