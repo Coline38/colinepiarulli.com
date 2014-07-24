@@ -1,7 +1,9 @@
 {
     "debug": false,
     "lintScripts": false,
-    "preprocessorLocations": "assets",
+    "preprocessorLocations": [
+        "assets"
+    ],
     "preprocessorScriptOutput": "assets/js",
     "preprocessorStyleOutput": "assets/css",
     "projectName": "Monsite",
@@ -43,7 +45,9 @@
     "remoteDebugPort": 0,
     "optimiseImages": true,
     "password": null,
-    "ignoreDir": "ignore",
+    "ignoreDir": [
+        "ignore"
+    ],
     "customTodos": null,
     "autoPrefixer": null,
     "sass": null,
